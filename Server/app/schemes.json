@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Medicare",
+        "description": "Available to people aged 65 or older or disabled.",
+        "eligibility": ["age >= 65", "disability_status == True"]
+    },
+    {
+        "id": 2,
+        "name": "Medicaid",
+        "description": "For low-income individuals and families.",
+        "eligibility": ["income == 'low'"]
+    }
+]
